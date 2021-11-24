@@ -100,7 +100,8 @@ footer img {
 }
 
 .resto__menu__card button {
-  display: none;
+  visibility: hidden;
+  position: absolute;
   float: right;
   height: 100%;
   width: 8%;
@@ -109,12 +110,21 @@ footer img {
   background-color: #99E2D0;
   color: white;
   font-size: large;
+  transform: scale(0);
+  transform-origin: right;
 }
 
 .resto__menu__card:hover button {
-  transform-origin: right;
   display: initial;
-  transform: initial;
+  transform-origin: right;
+  visibility: initial;
+  position: static;
+  transform: scale(1);
+  transition-duration: 500ms;
+}
+.resto__menu__card:hover button i {
+  transform: rotate(360deg);
+  transition-duration: 1s;
 }
 
 /*# sourceMappingURL=stylemenu.css.map */
