@@ -33,7 +33,6 @@ header a {
 .resto__menu {
   display: flex;
   flex-direction: column;
-  align-items: center;
   background-color: #f6f6f6;
   position: relative;
   z-index: 2;
@@ -42,14 +41,20 @@ header a {
   width: 103%;
 }
 
+.resto__menu h1 {
+  display: flex;
+  justify-content: space-around;
+}
+
 .resto__menu h2 {
-  align-self: flex-start;
+  margin-left: 10px;
+  text-decoration: underline #99E2D0;
 }
 
 .resto__menu__card {
   flex-direction: column;
   width: 80%;
-  height: 50px;
+  height: 70px;
   margin: 0px auto;
   margin-bottom: 10px;
   background-color: white;
@@ -58,18 +63,23 @@ header a {
 }
 
 .resto__menu__card h3 {
-  margin: 0%;
+  margin: 10px;
 }
 
 .resto__menu__card h4 {
-  margin: 0%;
+  margin: 0px 10px 0px 0px;
   float: right;
   position: relative;
   bottom: 15px;
 }
 
 .resto__menu__card p {
-  margin: 0%;
+  margin: 0px 0px 0px 10px;
+}
+
+.resto__commande {
+  align-self: center;
+  padding-top: 30px;
 }
 
 .resto__commande button {
@@ -124,7 +134,7 @@ footer img {
 }
 .resto__menu__card:hover button i {
   transform: rotate(360deg);
-  transition-duration: 1s;
+  transition-duration: 500ms;
 }
 
 /*# sourceMappingURL=stylemenu.css.map */
