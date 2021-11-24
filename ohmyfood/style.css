@@ -1,0 +1,169 @@
+/* Général*/
+
+@font-face {
+  font-family: "roboto";
+  src:url(https://fonts.googleapis.com/css2?family=Roboto&display=swap) format(truetype);
+}
+
+
+/* Header */
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+
+}
+
+header img{
+  height: 40px;
+}
+
+/*Section 1*/
+
+.recherche{
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f6f6 ;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.recherche form{
+  display: flex;
+  width: 100%;
+  padding: 10px 0px 10px 75%;
+  background-color: #eaeaea;
+  justify-self: center;
+  font-size: large;
+  box-shadow: 0px 0 5px #cfcfcf;
+
+
+}
+.recherche input{
+  background-color: #eaeaea
+  ;
+  text-emphasis-color: black;
+  border: none;
+  padding-left: 10px;
+  
+  
+}
+.recherche input:focus{
+  border: none;
+  outline: none;
+}
+
+.recherche ::placeholder{
+  color: black;
+  justify-content: center;
+  font-size: medium;
+  
+}
+
+.recherche h1{
+  font-weight: bolder;
+  font-size: xx-large;
+  width: 65%;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.recherche p{
+  font-size: x-large;
+  width: 65%;
+  text-align: center;
+  font-family: "roboto";
+}
+
+
+
+.recherche button{
+    background-image:linear-gradient(#FF79DA,#9556DC);
+    font-size: x-large;
+    padding: 20px;
+    border-radius: 50px;
+    color: white;
+    box-shadow: 0px 5px 5px #999;
+    border: none;
+}
+
+
+/*Section 2 */
+.fonctionnement{
+  display: flex;
+  flex-direction: column;
+}
+.fonctionnement h1{
+  padding-left: 20px;
+}
+
+
+
+.fonctionnement h2{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
+  height: 70px;
+  margin: 10px;
+  box-shadow: 0px 5px 5px #999;
+  border-radius: 30px;
+  background-color: #f2f2f2;
+  font-size: x-large;
+  border: none;
+}
+.fonctionnement p{
+  border-radius: 400%;
+  background-color: #9556DC;
+  width: 3%;
+  padding: 5px 0px 5px 8px;
+  position: absolute;
+  left: 5px;
+  font-size: large;
+
+  color: white;
+}
+.fonctionnement h2 i{
+  color: #7e7e7e  ;
+  padding: 10%;
+}
+
+.fonctionnement h2:hover{
+  background-color: #f5edff;
+}
+
+.fonctionnement h2:hover i{
+  color: #9556DC;
+}
+
+/* Section 3*/
+.restaurant{
+  background-color: #f6f6f6;
+}
+
+.restaurant h1{
+  padding-left: 20px;
+}
+.restaurant .cardresto{
+  width: 80%; 
+  height: 300px;
+  margin: 0px auto;
+  margin-bottom: 10px; 
+  background-color: white; 
+  border: #999 solid;
+  box-shadow: 0px 5px 20px #999;
+  border-radius: 20px;
+}
+
+.restaurant .cardresto img{
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+  border-radius: 20px 20px 0px 0px;
+ 
+}
+
+.restaurant .cardresto i{
+  float: right;
+}
