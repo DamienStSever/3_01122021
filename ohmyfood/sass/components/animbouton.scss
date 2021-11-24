@@ -1,0 +1,22 @@
+.resto__menu__card button{
+    display: none;
+    float: right;
+    height: 100%;
+    width: 8%;
+    border-radius: 0px 18px 18px 0px;
+    border:none;
+    background-color: $colorthree;
+    color: white;
+    font-size: large;
+
+}
+
+.resto__menu__card{
+    &:hover{
+        & button{
+            transform-origin: right;
+            display: initial;
+            transform: initial;
+        }
+    }
+}
