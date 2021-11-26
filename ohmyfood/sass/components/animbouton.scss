@@ -9,7 +9,7 @@
     background-color: $colorthree;
     color: white;
     font-size: large;
-    transform: scale(0);
+    transform: scaleX(0);
     transform-origin: right;
 
 }
@@ -21,7 +21,7 @@
             transform-origin: right;
             visibility: initial;
             position: static;
-            transform: scale(1);
+            transform: scaleX(1);
             transition-duration: 500ms;
             & i{
                 transform: rotate(360deg);
