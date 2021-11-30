@@ -1,8 +1,7 @@
 /* Général*/
 
-@font-face {
-  font-family: "roboto";
-  src:url(https://fonts.googleapis.com/css2?family=Roboto&display=swap) format(truetype);
+body{
+  font-family: Roboto;
 }
 
 
@@ -64,7 +63,7 @@ header img{
 .recherche form{
   display: flex;
   width: 100%;
-  padding: 10px 0px 10px 75%;
+  padding: 10px 0px 10px 0px;
   background-color: #eaeaea;
   justify-self: center;
   font-size: large;
@@ -73,17 +72,18 @@ header img{
 
 }
 .recherche input{
-  background-color: #eaeaea
-  ;
+  background-color: #eaeaea;
   text-emphasis-color: black;
   border: none;
-  padding-left: 10px;
-  
+  padding-left: 0px;
+  text-align: center; 
   
 }
-.recherche input:focus{
-  border: none;
-  outline: none;
+
+.recherche i{
+  align-self: center;
+  justify-self: center;
+  position: relative;
 }
 
 .recherche ::placeholder{
@@ -172,6 +172,10 @@ header img{
 /* Section 3*/
 .restaurant{
   background-color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .restaurant h1{
@@ -180,22 +184,57 @@ header img{
 .restaurant .cardresto{
   width: 80%; 
   height: 300px;
-  margin: 0px auto;
+  margin: 0px;
   margin-bottom: 10px; 
   background-color: white; 
   border: #999 solid;
   box-shadow: 0px 5px 20px #999;
   border-radius: 20px;
+  
 }
 
 .restaurant .cardresto img{
   object-fit: cover;
   width: 100%;
   height: 200px;
-  border-radius: 20px 20px 0px 0px;
+  border-radius: 15px 15px 0px 0px;
  
 }
 
 .restaurant .cardresto i{
   float: right;
+  position: relative;
+  top: 40px;
+  right: 30px;
+  font-size: xx-large;
+  
+}
+
+.restaurant .cardresto a{
+  color: black;
+  text-decoration: none;
+}
+
+.restaurant .cardresto h2{
+  padding-left: 10px;
+}
+
+.restaurant .cardresto p{
+  padding-left: 10px;
+}
+
+/* Footer */
+footer {
+  margin-top: 50px;
+  background-color: #353535;
+  color: white;
+  padding-left: 30px;
+}
+
+footer h1{
+  font-family: 'Shrikhand', cursive;
+  font-size: x-large;
+}
+footer i{
+  padding-right: 10px;
 }
