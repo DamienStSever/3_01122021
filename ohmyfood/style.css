@@ -19,8 +19,40 @@ header img{
   height: 40px;
 }
 
-/*Section 1*/
+/* Loading spinner */
+.chargement{
+  text-align: center;
+}
 
+.loading{
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  top: 350px;
+  position: fixed;
+
+}
+
+.loading::after{
+  content: '';
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  bottom: -6px;
+  right: -6px;
+  border-radius: 50px;
+  border: 6px solid transparent;
+  border-top-color: #FF79DA;
+  border-bottom-color: #9356DC;
+  animation: wait linear 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes wait {
+  0%{ transform: rotate(0deg);opacity: 1;}
+  100%{transform: rotate(360deg); opacity: 0;}
+}
+/*Section 1*/
 .recherche{
   display: flex;
   flex-direction: column;
