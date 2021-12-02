@@ -2,7 +2,10 @@
     position: absolute;
     float: right;
     border:none;
-    color: $colortwo;
+    background:linear-gradient($color-primary,$colortwo);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     transform: scaleX(0);
     transform-origin:top;
     font-size: x-large;
