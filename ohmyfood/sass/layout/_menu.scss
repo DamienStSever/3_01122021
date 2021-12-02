@@ -81,7 +81,7 @@
     
 }
 
-.resto__menu h1{
+.resto__menu__titre{
     display: flex;
     justify-content: space-around;
 }
@@ -107,7 +107,7 @@
 }
 
 .resto__menu__card h4{
-    margin: 0px 10px 0px 0px;
+    margin: 0px 20px 0px 0px;
     float: right;
     position: relative;
     bottom: 15px;

@@ -103,7 +103,7 @@ header a {
   width: 103%;
 }
 
-.resto__menu h1 {
+.resto__menu__titre {
   display: flex;
   justify-content: space-around;
 }
@@ -129,7 +129,7 @@ header a {
 }
 
 .resto__menu__card h4 {
-  margin: 0px 10px 0px 0px;
+  margin: 0px 20px 0px 0px;
   float: right;
   position: relative;
   bottom: 15px;
@@ -176,7 +176,7 @@ footer img {
   position: absolute;
   float: right;
   height: 100%;
-  width: 8%;
+  width: 15%;
   border-radius: 0px 18px 18px 0px;
   border: none;
   background-color: #99E2D0;
@@ -186,17 +186,44 @@ footer img {
   transform-origin: right;
 }
 
+.resto__menu__card:hover h4 {
+  transform: translate(0px, 0px);
+  transition-duration: 500ms;
+}
 .resto__menu__card:hover button {
-  display: initial;
-  transform-origin: right;
   visibility: initial;
-  position: static;
+  position: relative;
   transform: scaleX(1);
   transition-duration: 500ms;
 }
 .resto__menu__card:hover button i {
   transform: rotate(360deg);
   transition-duration: 500ms;
+}
+
+.resto__menu__titre i:nth-of-type(1) {
+  position: absolute;
+  float: right;
+  border: none;
+  color: #FF79DA;
+  transform: scaleX(0);
+  transform-origin: top;
+  font-size: x-large;
+  top: 20px;
+}
+
+.resto__menu__titre i:nth-of-type(2) {
+  position: relative;
+  font-size: x-large;
+  top: 20px;
+}
+
+.resto__menu__titre .coeur:hover i:nth-of-type(1) {
+  display: initial;
+  visibility: initial;
+  transform: scaleX(1);
+  transition-duration: 3s;
+  transform-origin: bottom;
 }
 
 /*# sourceMappingURL=stylemenu.css.map */

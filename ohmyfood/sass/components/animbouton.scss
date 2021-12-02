@@ -3,7 +3,7 @@
     position: absolute;
     float: right;
     height: 100%;
-    width: 8%;
+    width: 15%;
     border-radius: 0px 18px 18px 0px;
     border:none;
     background-color: $colorthree;
@@ -16,11 +16,14 @@
 
 .resto__menu__card{
     &:hover{
+        h4{
+            transform: translate(0px,0px);
+            transition-duration: 500ms;      
+            
+        }
         & button{
-            display: initial;
-            transform-origin: right;
             visibility: initial;
-            position: static;
+            position:relative ;
             transform: scaleX(1);
             transition-duration: 500ms;
             & i{
