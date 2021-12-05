@@ -14,3 +14,10 @@ footer img{
     color: white;
     height: 30px;
 }
+@media screen and (min-width: 992px) {
+    footer{
+      display: flex;
+      justify-content: space-around;
+    }
+    
+  }

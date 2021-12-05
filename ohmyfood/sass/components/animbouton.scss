@@ -37,3 +37,17 @@
         }
     }
 }
+@media screen and (min-width: 768px) {
+    .resto__menu__card{
+        &:hover{
+            h4{
+                position: relative;
+                left: 10%; 
+                transform: translate(-300%,0px);
+                transition-duration: 500ms;
+                
+            }
+        }
+    }    
+    
+}
