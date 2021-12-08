@@ -7,9 +7,70 @@
         opacity: 1;;
     }
 }
-.resto__menu__card{
-    animation: apparition 2s;  
+
+.resto__intro img{
+    width: 100%;
+    height: 450px  ;
+    
+
 }
+.resto__intro{
+    position: absolute;
+    width: 100%;
+}
+
+
+.resto__menu{
+    display: flex;
+    flex-direction: column;
+    background-color: $backgroundcolor;
+    position: relative;
+    top: 350px;
+    border-radius: 40px 40px 0px 0px;
+    width: 103%;
+    padding-bottom: 70px;
+}
+
+hr{
+    border-top: $colorthree solid 5px;
+    width: 60px;
+    margin: 5px 0px 10px 10px;
+
+    
+}
+
+.resto__menu__titre{
+    display: flex;
+    justify-content:space-between;
+}
+
+.resto__menu__titre h1{
+    font-family: 'Shrikhand', cursive;
+    font-size: xx-large;
+    padding-left: 20px;
+}
+
+.resto__menu h2{
+    margin: 10px 10px 0px 10px;
+    
+   
+}
+.resto__menu__card{
+    
+    flex-direction: column;
+    width: 95%; 
+    height: 70px;
+    margin: 0px auto;
+    margin-bottom: 10px; 
+    background-color: white; 
+    box-shadow: 0px 5px 20px #999;
+    border-radius: 20px;
+    animation: apparition 2s;
+
+}
+
+  
+
 
 
 .resto__menu__card:nth-of-type(1) {
@@ -60,51 +121,6 @@
     animation-fill-mode: both;
 }
 
-.resto__intro img{
-    width: 100%;
-    height: 450px  ;
-    
-
-}
-.resto__intro{
-    position: absolute;
-    width: 100%;
-}
-
-
-.resto__menu{
-    display: flex;
-    flex-direction: column;
-    background-color: $backgroundcolor;
-    position: relative;
-    top: 350px;
-    border-radius: 40px 40px 0px 0px;
-    width: 103%;
-    padding-bottom: 70px;
-}
-
-.resto__menu__titre{
-    display: flex;
-    justify-content: space-around;
-}
-.resto__menu h2{
-    margin-left: 10px;
-    text-decoration: underline $colorthree;
-   
-}
-.resto__menu__card{
-    
-    flex-direction: column;
-    width: 90%; 
-    height: 70px;
-    margin: 0px auto;
-    margin-bottom: 10px; 
-    background-color: white; 
-    box-shadow: 0px 5px 20px #999;
-    border-radius: 20px;
-    
-
-}
 
 .resto__menu__card h3{
     margin: 10px;

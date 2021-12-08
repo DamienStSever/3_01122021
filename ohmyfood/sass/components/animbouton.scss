@@ -31,6 +31,7 @@
             & i{
                 transform: rotate(360deg);
                 transition-duration: 500ms;
+                font-size: x-large;
             }
     
            
@@ -43,7 +44,7 @@
             h4{
                 position: relative;
                 left: 10%; 
-                transform: translate(-300%,0px);
+                transform: translate(-350%,0px);
                 transition-duration: 500ms;
                 
             }

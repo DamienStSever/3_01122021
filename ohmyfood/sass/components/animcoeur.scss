@@ -9,13 +9,15 @@
     transform: scaleX(0);
     transform-origin:top;
     font-size: x-large;
-    top: 20px;
+    top: 40px;
+    right: 50px;
 }
 .resto__menu__titre i:nth-of-type(2){
     position:  relative;
     font-size: x-large;
-    top: 20px;
-}
+    top: 40px;
+    right: 50px;
+} 
 
 .resto__menu__titre .coeur{
     &:hover{
