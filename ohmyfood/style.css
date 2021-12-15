@@ -283,6 +283,7 @@ header img{
       transition-duration: 3s;  
 }
 .cardresto .coeur:hover i:nth-of-type(2){
+  transition-delay: 2s;
   opacity: 0;
 }
 .restaurant .cardresto a{
@@ -296,6 +297,16 @@ header img{
 
 .restaurant .cardresto p{
   padding-left: 10px;
+}
+.cardresto h3{
+  background-color: #99E2D0;
+  position: relative;
+  bottom:300px ;
+  left: 75%;
+  padding: 8px 15px 8px 15px;
+  width: 80px;
+  color: #008766;
+  border-radius: 5px;
 }
 @media screen and (min-width: 768px) {
   .resto{
