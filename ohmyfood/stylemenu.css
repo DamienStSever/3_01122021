@@ -179,13 +179,13 @@ hr {
   padding: 20px 50px 20px 50px;
   border-radius: 50px;
   color: white;
-  box-shadow: 0px 5px 5px #999;
+  box-shadow: 0px 5px 5px grey;
   border: none;
 }
 .resto__commande button:hover {
   background: #ae80e5;
   background: #fface8;
-  box-sizing: 0px 10px 10px #999;
+  box-shadow: 0px 10px 10px grey;
 }
 
 footer {
