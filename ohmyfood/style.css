@@ -348,7 +348,6 @@ footer i{
 footer a{
   margin-top: 10px;
   color: white;
-  padding-left: 30px;
   text-decoration: none;
 }
 @media screen and (min-width: 992px) {

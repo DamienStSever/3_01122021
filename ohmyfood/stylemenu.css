@@ -193,7 +193,7 @@ footer {
   padding-top: 10px;
   background-color: #353535;
   color: white;
-  padding-left: 10px;
+  padding-left: 30px;
   display: flex;
   flex-direction: column;
   padding-bottom: 40px;
@@ -209,10 +209,13 @@ footer img {
   height: 30px;
 }
 
+footer i {
+  padding-right: 10px;
+}
+
 footer a {
   margin-top: 10px;
   color: white;
-  padding-left: 30px;
   text-decoration: none;
 }
 
