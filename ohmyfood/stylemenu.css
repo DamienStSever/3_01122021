@@ -140,7 +140,7 @@ hr {
   margin: 10px;
   white-space: nowrap;
   text-overflow: ellipsis;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .resto__menu__card h4 {
@@ -152,7 +152,7 @@ hr {
   margin: 0px 0px 0px 10px;
   text-overflow: ellipsis;
   white-space: nowrap;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .resto__commande {
@@ -194,6 +194,9 @@ footer {
   background-color: #353535;
   color: white;
   padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
 }
 
 footer h1 {
@@ -206,13 +209,25 @@ footer img {
   height: 30px;
 }
 
+footer a {
+  margin-top: 10px;
+  color: white;
+  padding-left: 30px;
+  text-decoration: none;
+}
+
 @media screen and (min-width: 992px) {
   footer {
     display: flex;
     justify-content: space-around;
+    flex-direction: row;
     max-width: 1100Px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  footer a {
+    padding-top: 10px;
   }
 }
 .resto__menu__card button {

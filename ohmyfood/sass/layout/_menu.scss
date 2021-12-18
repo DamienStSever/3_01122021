@@ -66,7 +66,7 @@ hr{
     box-shadow: 0px 5px 20px #999;
     border-radius: 20px;
     animation: apparition 2s;
-
+    
 }
 
   
@@ -126,7 +126,7 @@ hr{
     margin: 10px;
     white-space: nowrap;
     text-overflow: ellipsis;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .resto__menu__card h4{
@@ -138,7 +138,7 @@ hr{
     margin:0px 0px 0px 10px;
     text-overflow: ellipsis;
     white-space: nowrap;
-    overflow: auto;
+    overflow: hidden;
 }
 .resto__commande{
     align-self: center;
