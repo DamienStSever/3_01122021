@@ -303,7 +303,7 @@ header img{
   background-color: #99E2D0;
   position: relative;
   bottom:300px ;
-  left: 75%;
+  left: 60%;
   padding: 8px 15px 8px 15px;
   width: 80px;
   color: #008766;
@@ -319,12 +319,16 @@ header img{
     min-width: 300px;
     max-width: 500px;
   }
+  .cardresto h3{
+    left: 75%;
+  }
 }
 @media screen and (min-width:992px) {
   .restaurant{
     max-width: 1100px;
     margin: auto;
   }
+  
   
 }
 /* Footer */

@@ -1,54 +1,36 @@
+
 .resto__menu__card button{
     visibility: hidden;
-    position: absolute;
     float: right;
     height: 100%;
-    width: 15%;
+    width: 0%;
     border-radius: 0px 18px 18px 0px;
     border:none;
     background-color: $colorthree;
     color: white;
     font-size: large;
-    transform: scaleX(0);
+    transform: scaleX(0) width ;
     transform-origin: right;
-
+    transition-duration: 300ms;
 }
 
 .resto__menu__card{
     &:hover{
-        h4{
-            position: relative;
-            left: 10%; 
-            transform: translate(-200%,0px);
-            transition-duration: 500ms;
             
-        }
         & button{
             visibility: initial;
             position:relative ;
             transform: scaleX(1);
-            transition-duration: 500ms;
+            width: 15%;
+            
             & i{
                 transform: rotate(360deg);
                 transition-duration: 500ms;
-                font-size: x-large;
+                font-size: xx-large;
             }
-    
+            
+        }
            
-        }
     }
-}
-@media screen and (min-width: 768px) {
-    .resto__menu__card{
-        &:hover{
-            h4{
-                position: relative;
-                left: 10%; 
-                transform: translate(-350%,0px);
-                transition-duration: 500ms;
-                
-            }
-        }
-    }    
-    
-}
+} 
+
